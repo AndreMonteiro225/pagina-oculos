@@ -1,0 +1,64 @@
+.secaoContatos {
+    color: white;
+    background-color: #03164b;
+    padding: 1vh 0vw 7vh 0vw;
+}
+
+.containerFaleConosco {
+    margin-top: 5vh;
+    padding: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10vh;
+}
+
+.containerFaleConosco h3{
+    font-size: 3vw;
+}
+
+.containerFaleConosco p {
+    margin: 2vh 15vw;
+    display: flex;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.containerIcones {
+    margin: 2vh 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cardIcones {
+    display: flex;
+    align-items: center;
+}
+
+.cardIcones img {
+    object-fit: contain;
+    height: 5vh;
+    margin-right: 1vw;
+}
+
+.containerContato {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerContato h3 {
+    text-align: center;
+    margin-bottom: 4.5vh;
+}
+
+.containerRedesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+.containerRedesSociais h3 {
+    margin-bottom: 4.5vh;
+}

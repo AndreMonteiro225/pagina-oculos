@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.5vh 20vw;
+    line-height: 25px;
+}
+
+.card {
+    border: 1px solid turquoise;
+    margin: 0 20vw;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.card img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.containerCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1vh 1vw;
+}
+
+.containerCard h4 {
+    font-size: 35px;
+    margin-bottom: 9vh;
+}
+
+.containerCard p {
+    font-size: 20px;
+    margin: 0 5px 5px 0;
+}
+
+.containerSecaoCard{
+    margin: 6vh auto;
+}

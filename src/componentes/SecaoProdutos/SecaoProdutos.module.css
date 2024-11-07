@@ -1,0 +1,54 @@
+.topoProdutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 10vw;
+    line-height: 35px;
+}
+
+.secaoProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* width: 100%; */
+    margin: 10vh 15vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 2 - 20px);
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: black 6px 4px 25px 5px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    max-width: 40vw;
+    height: 40vh;
+}
+
+.card img {
+    object-fit: scale-down;
+    width: 50vh;
+    display: flex;
+    padding: 20px;
+    height: 100%;
+}
+
+.secaoProdutosRodape {
+    line-height: 35px;
+    margin: 5px 20vw 5px 20vw;
+    text-align: center;
+
+}
+
+.secaoProdutosRodape li {
+    display: flex;
+    justify-content: center;
+    
+}
+
+

@@ -1,0 +1,24 @@
+.SecaoCapa {
+    background-image: url("../../../public/capa.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SecaoCapa h1 {
+    width: 27vw;
+    text-wrap: wrap;
+    font-size: 80px;
+    margin: 7vh 32vw 7vh 0;
+}
+
+.SecaoCapa p {
+    margin-right: 32vw;
+    line-height: 50px;
+    font-size: 55px;
+}

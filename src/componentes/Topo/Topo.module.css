@@ -1,0 +1,21 @@
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.links {
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 20px;
+}
+
+.topo img {
+    height: 6vh;
+    width: 16vw;
+    object-fit: scale-down;
+}
+
+
+
